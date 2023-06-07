@@ -30,6 +30,7 @@ html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+/*Estilos del header*/
 header{
     position: relative;
     display: flex;
@@ -95,6 +96,7 @@ header img{
     margin-left: 10px;
     background-image: url('./assets/icons/arrow-01.svg');
 }
+/*Estilos del main*/
 main{
     width: 100%;
     min-width: 320px;
@@ -201,4 +203,19 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.currency-table--date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currency-table--date p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
 }
