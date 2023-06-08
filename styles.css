@@ -219,3 +219,26 @@ main{
     color: var(--warm-black);
     font-weight: 300;
 }
+
+.main-currency-table .currency-table--title2{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 2.3rem;
+    color: var(--secondary-blue);
+}
+.currency-table--date2{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+.currency-table--date2 p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
+}
