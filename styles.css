@@ -242,3 +242,44 @@ main{
     color: var(--warm-black);
     font-weight: 300;
 }
+/*Tarjetas y titulo*/
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+/*Manera de colocar una imagen flotante(Que este entre 2 secciones diferentes)*/
+.product-detail--batata-logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+/*Con calc hacemos un calculo de la posicion donde se ubicara nuestro objeto*/
+    background-image: url(./assets/imgs/papa.svg);
+}
+.product-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
