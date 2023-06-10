@@ -394,8 +394,18 @@ main{
     color: #757575;
 }
 /*Forma para hacer las tarjetas de planes*/
+.plans-container--slider{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;/*iniciamos un scroll*/
+    overscroll-behavior-x: contain;/*En el eje x*/
+    scroll-snap-type: x proximity;
+    gap: 20px;
+}
 .plans-container--card{
     position: relative;
+    /*Sirve para centrar un elemento de un scroll de manera automatica*/
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
