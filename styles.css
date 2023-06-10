@@ -393,6 +393,7 @@ main{
     line-height: 1.8rem;
     color: #757575;
 }
+/*Forma para hacer las tarjetas de planes*/
 .plans-container--card{
     position: relative;
     width: 70%;
@@ -404,4 +405,41 @@ main{
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.recomendado{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+/*Manera de hacer que un texto sea flotante*/
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+    padding: 6px;
+}
+.plan-card--title{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500px;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan-card--price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: var(--black);
+}
+.plan-card--price span{
+    font-size: 1.2rem;
+    font-weight: 300;
+/*Se usa para alinear de manera vertical un span dentro de un contenedor*/
+    vertical-align: text-top;
+}
+.plan-card--saving{
+    font-size: 1.2rem;
+    color: #757575;
 }
